@@ -1,0 +1,308 @@
+body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+p {
+    margin-block-start:  0;
+    margin-block-end: 0
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.main {
+    max-width: 1280px;
+}
+
+.keyvisual {
+    position: relative;
+    margin-bottom: 66px;
+}
+
+.keyvisualLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);}
+
+header {
+    width: 1280px;  
+    position: fixed;
+    top: 0px;
+}
+
+.headerArea {
+    background-color: #ffffff;
+    width: 1017px;
+    margin: 0 auto;
+}
+.headerLogo {
+    display: inline-block;
+
+}
+.headerLogoImg {
+    margin-left: 35px;
+    margin-right: 160px;
+
+}
+
+.navArea {
+    width: 292px;
+    display: inline;
+
+}
+
+.navItemList {
+    display: inline;    
+}
+
+.navItem {
+    display: inline;
+    margin-right: 44px;
+    font-size: 16px;
+}
+
+.mailIcon {
+
+
+}
+
+.tellIcon {
+}
+
+
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+
+.mailBox {
+    width: 75px;
+    height: 76px;
+    background-color: #3c3c3c;
+    display: inline-block;
+}
+
+.telBox {
+    width: 154px;
+    height: 76px;
+    background-color: #ed4350;
+    display: inline-block;
+}
+
+.contentAbout {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sozai {
+    width: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.contentTtl-lg {
+    margin-bottom: 42px;
+    font-size: 36px;
+    color: #3c3c3c;
+}
+
+.contentTtl-mid {
+    font-size: 16px;
+    line-height: 2.38;
+    color: #3c3c3c;
+    margin-bottom: 50px;
+
+}
+
+.grayBtn {
+    width: 320px;
+    background-color: #3c3c3c;
+    font-size: 22px;
+    color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 22px 0;
+}
+
+.contentBusiness {
+    background-color: #f0f0f0;
+    padding: 100px 0;
+}
+
+.contentBusinessTtl {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contentBusinessItemArea {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBusinessItem {
+    width: 288px;
+    background-color: #ffffff;
+    padding-top: 44px;
+    margin-bottom: 50px;
+}
+
+.contentBusinessTxt {
+    margin-bottom: 40px;
+    font-size: 18px;
+
+}
+
+.contentBusinessInnerTxt {
+    width: 252px;
+    font-size: 14px;
+    line-height: 1.57;
+    padding-bottom: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+.detailBtn {
+    width: 288px;
+    font-size: 18px;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    padding: 22px 0;
+}
+
+.contentBlog {
+    background-color: #fff;
+    padding: 100px 0;
+    
+} 
+
+.contentBlogItemArea {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBlogItem {
+    /* width: 320px; */
+    height: 506px;
+    border-left: 1px solid #cecece;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: inline-block;
+
+}
+
+.blogTtlSmallArea {
+    width: 264px;
+    height: 26px;
+    padding-top: 12px;
+}
+
+.blogTtlSmallBox {
+    width: 100px;
+    background-color: #f3b338;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 7px 0;
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+
+.blogTtlSmallTxt {
+    display: inline;
+    font-size: 14px;
+    color: #3c3c3c;
+}
+
+.contentBlogImg {
+    width: 265px;
+    height: 150px;
+    background-color: #f3b338;
+    margin-bottom: 20px;
+}
+
+.contentTextArea-1 {
+    font-size: 20px;
+    color: #3c3c3c;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.contentBlogTxt {
+    font-size: 14px;
+    width: 268px;
+    line-height: 22px;
+    color: #3c3c3c;
+    margin-bottom: 30px;
+}
+
+.moerBtn {
+    width: 217px;
+    border: 1px solid #000000;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.gmap {
+    width: 100%;
+    background-color: #3c3c3c;
+}
+
+footer {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: relative;
+}
+
+.footerInner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+    padding-top: 33px;
+}
+
+.footerTxt {
+    font-size: 12px;
+    width: 311px;
+    line-height: 22px;
+    padding-bottom: 22px;
+}
+
+.footerLogo {
+    padding-bottom: 20px;
+}
+
+.footerTxt-2 {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.topIcon {
+    position: absolute;
+    bottom: 181px;
+    right: 166px;
+}
