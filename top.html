@@ -6,7 +6,8 @@
     <title>TOP</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/top.js"></script>
 </head>
 <body>
     <div class="main">
@@ -26,9 +27,6 @@
         <header>
             <div class="headerArea">
                 <div class="headerInner">
-                    <div class="headerLogo">
-                        <img src="img/logo.png" class="headerLogoImg">
-                    </div>
                     <div class="navArea">
                         <ul class="navItemList">
                             <li class="navItem">ABOUT US</li>
@@ -189,16 +187,16 @@
                     Tel:09-9999-9999</p>
                 <p class="footerTxt-2">Copyright (C) tarukawa All Rights Reserved.</p>
             </div>
-            <div class="topIcon">
+            <div class="topIcon" id="pageBack">
                 <img src="img/icon_top.png">
             </div>
         </footer>
     </div>
-    <script>
+    <!-- <script>
         const keyvisualLogo = document.querySelector('keyvisualLogo')
         keyvisualLogo.animate({
                 opacity: [0, 1]
             }, 1500)
-    </script>
+    </script> -->
 </body>
 </html>

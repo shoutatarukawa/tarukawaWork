@@ -51,6 +51,8 @@ header {
     background-color: #ffffff;
     width: 1017px;
     margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
 }
 .headerLogo {
     display: inline-block;
