@@ -22,8 +22,6 @@ $(function(){
       }
     });
     
-     
-    
     // ◇ボタンをクリックしたら、スクロールして上に戻る
     topBtn.click(function(){
       $('body,html').animate({
@@ -34,3 +32,30 @@ $(function(){
     
     
     });
+
+// 　要素をフェードイン
+    $(function(){
+      　$(window).scroll(function (){
+          $('.effect-fade').each(function(){
+              var elemPos = $(this).offset().top;
+              var scroll = $(window).scrollTop();
+              var windowHeight = $(window).height();
+              if (scroll > elemPos - windowHeight){
+                  $(this).addClass('effect-scroll');
+              }
+          });
+      　});
+      });
+
+      $(function(){
+        　$(window).scroll(function (){
+            $('.effect-fade-2').each(function(){
+                var elemPos = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll > elemPos - windowHeight){
+                    $(this).addClass('effect-scroll');
+                }
+            });
+        　});
+        });
